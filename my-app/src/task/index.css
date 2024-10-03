@@ -1,0 +1,44 @@
+.tarefas{
+    border: solid 0.5px gray;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px 5px;
+    margin: 10px 0px;
+}
+.info{
+    background-color: white;
+    margin: 20px;
+}
+
+.ButtosTask{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+.Visualizar{
+    border: solid 0.5px gray;
+    border-radius: 2px;
+}
+
+.Excluir{
+    border: solid 0.5px white;
+    color:white;
+    border-radius: 2px;
+    background-color: rgb(225, 111, 100);
+}
+
+.formTarefas{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formTarefas input{
+    width: 100%;
+}
+
+.formTarefas textarea{
+    width: 100%;
+    border: solid 0.2px gray;
+}
